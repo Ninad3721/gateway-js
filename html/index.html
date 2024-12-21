@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css"/>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+<body>
+    <div class="heading">
+          <h1>Task Mananger</h1>
+    </div>
+  <div class="taskAdder">
+        <input id="taskInput"  placeholder="Enter the task details" type="text"></input>
+        <button id="addTaskButton">Add task</button>
+  </div>
+  
+
+    <div class="filter-tasks">
+        <select id="filterTasks">
+            <option value="all">All Tasks</option>
+            <option value="completed">Completed Tasks</option>
+            <option value="pending">Pending Tasks</option>
+        </select>
+    </div>
+    
+  <div class="taskListDiv">
+    <ol id="taskList">
+    </ol>
+  </div>
+  <script src="../javascript/index.js"></script>
+</body>
+</html>
